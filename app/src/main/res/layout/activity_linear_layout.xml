@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="300dp">
+    <TextView
+        android:id="@+id/tv_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="11sp"
+        android:text="我居中对齐!"
+        android:layout_centerInParent="true"
+        android:background="#ffdddddd"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="11sp"
+        android:text="我左对齐!"
+        android:layout_alignParentLeft="true"
+        android:background="#ffdddddd"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="11sp"
+        android:text="我水平居中对齐!"
+        android:layout_centerHorizontal="true"
+        android:background="#ffdddddd"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="11sp"
+        android:text="我右对齐!"
+        android:layout_alignParentRight="true"
+        android:background="#ddffdddd"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="11sp"
+        android:text="左对齐+垂直居中!"
+        android:layout_centerVertical="true"
+        android:background="#ffdddddd"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="11sp"
+        android:text="右对齐+垂直居中!"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:background="#ffdddddd"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="11sp"
+        android:text="左对齐+下对齐!"
+        android:layout_alignParentBottom="true"
+        android:background="#ffdddddd"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="11sp"
+        android:text="底对齐+居中!"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#ffdddddd"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="11sp"
+        android:text="底对齐+靠右!"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="#ffdddddd"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="11sp"
+        android:text="相对居中元素+靠右!"
+        android:layout_toLeftOf="@id/tv_center"
+        android:layout_alignTop="@id/tv_center"
+        android:background="#ffddddff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="11sp"
+        android:text="相对居中元素+靠上!"
+        android:layout_above="@id/tv_center"
+        android:layout_alignLeft="@id/tv_center"
+        android:background="#ffddddff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="11sp"
+        android:text="相对居中元素+下!"
+        android:layout_below="@id/tv_center"
+        android:layout_alignLeft="@id/tv_center"
+        android:background="#ffddddff"/>
+
+</RelativeLayout>

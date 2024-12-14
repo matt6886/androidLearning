@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="tv1">Hello World!</string>
+    <string name="tv1_1">你好世界!</string>
+    <string name="btn1">Go to Activity two</string>
+    <string name="btn2">Go to Text Activity</string>
+    <string name="btn3">Go to Linear Layout Activity</string>
+    <string name="btn4">Go to Linear ScrollView Activity</string>
+    <string name="btn5">Go to Button Activity</string>
+    <string name="btn6">Go to ImageView Activity</string>
+    <string name="btn7">Go to Calculator Activity</string>
+    <string name="btn8">Go to Next Activity</string>
+    <string name="tv2">Welcome to Activity 2</string>
+    <string name="tv_t1">Text 1</string>
+    <string name="tv_t3">Text 2</string>
+    <string name="tv_t2">Text 2</string>
+    <string name="tv_t4">color setting</string>
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageButton
+        android:id="@+id/btn_top_back"
+        android:layout_marginTop="40dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/back"
+        android:background="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/btn_jump"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="go to page B"
+        android:textSize="24sp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/btn_jump_success"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="jusm to success page"
+        android:textSize="24sp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/btn_call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="make a call"
+        android:textSize="24sp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/btn_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="send a message"
+        android:textSize="24sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/tv_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="data that will be passed"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/btn_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pass some data"
+        android:textSize="24sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/tv_response"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:gravity="center"/>
+
+
+
+</LinearLayout>
