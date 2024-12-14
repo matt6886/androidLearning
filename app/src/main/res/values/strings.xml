@@ -10,9 +10,17 @@
     <string name="btn6">Go to ImageView Activity</string>
     <string name="btn7">Go to Calculator Activity</string>
     <string name="btn8">Go to Next Activity</string>
+    <string name="btn9">Go to Read XML Activity</string>
     <string name="tv2">Welcome to Activity 2</string>
     <string name="tv_t1">Text 1</string>
     <string name="tv_t3">Text 2</string>
     <string name="tv_t2">Text 2</string>
     <string name="tv_t4">color setting</string>
+    <string name="tv_read">Read String From XML</string>
+    <string name="first_short_name">First short</string>
+    <string name="first_long_name">First long name</string>
+    <string name="second_short_name">Second short</string>
+    <string name="second_long_name">Second long name</string>
+    <string name="third_short_name">Third short</string>
+    <string name="third_long_name">Third long name</string>
 </resources>

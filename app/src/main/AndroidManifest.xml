@@ -13,14 +13,19 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
+            android:name=".ReadFromXmlActivity"
+            android:exported="false" >
+            <meta-data android:name="weather" android:value="sunny" />
+        </activity>
+        <activity
             android:name=".ReceiveActivity"
             android:exported="false" />
         <activity
             android:name=".ActivityStartMode"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".ActivitySwitch"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".CalculatorActivity"
             android:exported="false" />
@@ -53,6 +58,7 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            <meta-data android:name="android.app.shortcuts" android:resource="@xml/shortcuts" />
         </activity>
     </application>
 
