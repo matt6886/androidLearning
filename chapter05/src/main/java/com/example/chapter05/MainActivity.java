@@ -29,6 +29,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         Button btn_nine_draw = findViewById(R.id.btn_nine_draw);
         btn_nine_draw.setOnClickListener(this);
+
+        Button btn_check = findViewById(R.id.btn_check);
+        btn_check.setOnClickListener(this);
+
+        Button btn_et = findViewById(R.id.btn_et);
+        btn_et.setOnClickListener(this);
+
+        Button btn_show_dialog = findViewById(R.id.btn_show_dialog);
+        btn_show_dialog.setOnClickListener(this);
+
+        Button btn_login_case = findViewById(R.id.btn_login_case);
+        btn_login_case.setOnClickListener(this);
     }
 
     @Override
@@ -38,6 +50,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(intent);
         } else if (v.getId() == R.id.btn_nine_draw) {
             Intent intent = new Intent(this, NineDrawableActivity.class);
+            startActivity(intent);
+        } else if (v.getId() == R.id.btn_check) {
+            Intent intent = new Intent(this, CheckActivity.class);
+            startActivity(intent);
+        } else if (v.getId() == R.id.btn_et) {
+            Intent intent = new Intent(this, EditTextActivity.class);
+            startActivity(intent);
+        } else if (v.getId() == R.id.btn_show_dialog) {
+            Intent intent = new Intent(this, DialogActivity.class);
+            startActivity(intent);
+        } else if (v.getId() == R.id.btn_login_case) {
+            Intent intent = new Intent(this, LoginActivity.class);
             startActivity(intent);
         }
     }

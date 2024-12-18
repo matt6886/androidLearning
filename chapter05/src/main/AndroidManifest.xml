@@ -9,6 +9,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".ForgetPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DialogActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditTextActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CheckActivity"
+            android:exported="false" />
+        <activity
             android:name=".NineDrawableActivity"
             android:exported="false" />
         <activity
