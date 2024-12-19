@@ -1,19 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
 
     <application
+        android:name=".MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MyApplication">
+        android:theme="@style/Theme.MyApplication" >
+        <activity
+            android:name=".AppActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ImageWriteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FileWriteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DBOperationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DatabaseActivituy"
+            android:exported="false" />
         <activity
             android:name=".SharePreferenceActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
