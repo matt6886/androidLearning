@@ -67,5 +67,25 @@
         android:textSize="16sp"
         android:textColor="@color/black"/>
 
+    <Button
+        android:id="@+id/btn_room"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Room Operation"
+        android:background="#aaaaaa"
+        android:textSize="16sp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/btn_shopping_case"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Shopping Case"
+        android:background="#aaaaaa"
+        android:textSize="16sp"
+        android:textColor="@color/black"/>
+
 
 </LinearLayout>

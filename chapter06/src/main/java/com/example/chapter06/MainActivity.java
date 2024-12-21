@@ -39,6 +39,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn_external_save).setOnClickListener(this);
         findViewById(R.id.btn_save_img).setOnClickListener(this);
         findViewById(R.id.btn_save_to_app).setOnClickListener(this);
+        findViewById(R.id.btn_room).setOnClickListener(this);
+        findViewById(R.id.btn_shopping_case).setOnClickListener(this);
     }
 
     @Override
@@ -60,6 +62,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(intent);
         } else if (v.getId() == R.id.btn_save_to_app) {
             Intent intent = new Intent(this, AppActivity.class);
+            startActivity(intent);
+        } else if (v.getId() == R.id.btn_room) {
+            Intent intent = new Intent(this, RoomActivity.class);
+            startActivity(intent);
+        } else if (v.getId() == R.id.btn_shopping_case) {
+            Intent intent = new Intent(this, ShoppingChannelActivity.class);
             startActivity(intent);
         }
     }
