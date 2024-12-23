@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <queries>
+
+        <!-- You need to declare the package name of the other app that you will access to first -->
+        <!-- either of one is available -->
+        <!-- <package android:name="com.example.chaper07_server"/> -->
+        <provider android:authorities="com.example.chaper07_server.provider.UserInfoProvider" />
+    </queries>
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+<!-- android 11之后-->
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+<!--    android 8.0之后-->
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+        <activity
+            android:name=".ProviderApkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SendSMSActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MonitorSmsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ContactAddActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PermissionHungryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PermissionLazyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ContentWriteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="@string/file_provider"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

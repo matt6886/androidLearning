@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_content_write"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#aaaaaa"
+        android:text="ContentWrite"
+        android:textSize="17sp"/>
+
+    <Button
+        android:id="@+id/btn_lazy_permission"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#aaaaaa"
+        android:text="lzay permission"
+        android:textSize="17sp"/>
+
+    <Button
+        android:id="@+id/btn_lazy_permission_hungry"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#aaaaaa"
+        android:text="permission Hungry"
+        android:textSize="17sp"/>
+
+    <Button
+        android:id="@+id/btn_contact"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#aaaaaa"
+        android:text="Add/find contacts"
+        android:textSize="17sp"/>
+
+    <Button
+        android:id="@+id/btn_sms"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#aaaaaa"
+        android:text="Monitor SMS"
+        android:textSize="17sp"/>
+
+    <Button
+        android:id="@+id/btn_send_sms"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#aaaaaa"
+        android:text="send SMS"
+        android:textSize="17sp"/>
+
+    <Button
+        android:id="@+id/btn_install_apk"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#aaaaaa"
+        android:text="install apk"
+        android:textSize="17sp"/>
+
+</LinearLayout>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        >
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="Name:"
+            android:textSize="16sp"
+            android:gravity="center|end"
+            android:textColor="@color/black"/>
+        <EditText
+            android:id="@+id/et_name"
+            android:paddingLeft="10dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:hint="Input your name"
+            android:textSize="16sp"
+            android:background="@drawable/input_selector"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        >
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="Age:"
+            android:textSize="16sp"
+            android:gravity="center|end"
+            android:textColor="@color/black"/>
+        <EditText
+            android:id="@+id/et_age"
+            android:paddingLeft="10dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:hint="Input your age"
+            android:textSize="16sp"
+            android:background="@drawable/input_selector"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        >
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="Height:"
+            android:textSize="16sp"
+            android:gravity="center|end"
+            android:textColor="@color/black"/>
+        <EditText
+            android:id="@+id/et_height"
+            android:paddingLeft="10dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:hint="Input your height"
+            android:textSize="16sp"
+            android:background="@drawable/input_selector"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        >
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="Weight:"
+            android:textSize="16sp"
+            android:gravity="center|end"
+            android:textColor="@color/black"/>
+        <EditText
+            android:id="@+id/et_weight"
+            android:paddingLeft="10dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:hint="Input your weight"
+            android:textSize="16sp"
+            android:background="@drawable/input_selector"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/ck_married"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="married"
+        android:width="100dp"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btn_create"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create"
+        android:textSize="16sp"
+        android:textColor="@color/cardview_dark_background"
+        android:background="#aaaaaa"/>
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:textSize="16sp"
+        android:textColor="@color/cardview_dark_background"
+        android:background="#aaaaaa"/>
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:textSize="16sp"
+        android:textColor="@color/cardview_dark_background"
+        android:background="#aaaaaa"/>
+
+    <Button
+        android:id="@+id/btn_retrieve"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Retrieve"
+        android:textSize="16sp"
+        android:textColor="@color/cardview_dark_background"
+        android:background="#aaaaaa"/>
+
+</LinearLayout>

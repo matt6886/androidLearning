@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">chaper07-client</string>
+    <string name="file_provider">com.example.chaper07_client.fileProvider</string>
+</resources>

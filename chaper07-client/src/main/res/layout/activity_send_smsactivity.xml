@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:text="phone number:"
+            android:gravity="center|right"/>
+        <EditText
+            android:id="@+id/et_phone_number"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/input_selector"
+            android:layout_weight="1"
+            android:text="10086"
+            android:paddingLeft="10dp"
+            android:textSize="16sp"
+            android:hint="phone number"
+            android:layout_marginHorizontal="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:text="titler:"
+            android:gravity="center|right"/>
+        <EditText
+            android:id="@+id/et_title"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/input_selector"
+            android:layout_weight="1"
+            android:text="hello"
+            android:paddingLeft="10dp"
+            android:textSize="16sp"
+            android:hint="title"
+            android:layout_marginHorizontal="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:text="message:"
+            android:gravity="center|right"/>
+        <EditText
+            android:id="@+id/et_content"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/input_selector"
+            android:layout_weight="1"
+            android:text="Do you eating?"
+            android:paddingLeft="10dp"
+            android:textSize="16sp"
+            android:hint="content"
+            android:layout_marginHorizontal="10dp"/>
+    </LinearLayout>
+<!--    <LinearLayout-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+<!--        <TextView-->
+<!--            android:layout_width="110dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="16sp"-->
+<!--            android:text="attachment:"-->
+<!--            android:gravity="top|right"/>-->
+<!--        <ImageView-->
+<!--            android:id="@+id/iv_add"-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="100dp"-->
+<!--            android:scaleType="fitCenter"-->
+<!--            android:src="@drawable/plus"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:background="#aaaaaa"/>-->
+<!--    </LinearLayout>-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:text="select images to send:"
+        android:gravity="left|center"/>
+
+    <GridLayout
+        android:id="@+id/gl_images"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:columnCount="3"/>
+
+    <Button
+        android:id="@+id/btn_send_sms"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#aaaaaa"
+        android:layout_marginTop="10dp"
+        android:textSize="17sp"
+        android:text="send sms"
+        android:textColor="@color/black"/>
+
+</LinearLayout>
