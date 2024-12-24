@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:textColor="@color/black"
+        android:text="地球"/>
+    
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:scaleType="fitCenter"
+        tools:src="@drawable/earth"/>
+
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="start|top"
+        android:textSize="13sp"
+        android:textColor="@color/black"
+        android:text="地球是太阳系中由内到外个第三颗行星，距离太阳约1.5亿千米。 地球是人类已知宇宙中唯一存在生命个天体，也是人类居住个星球，共有76.6亿人口。"/>
+
+</LinearLayout>

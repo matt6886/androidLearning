@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <Button
+       android:id="@+id/btn_spinner"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="#aaaaaa"
+       android:text="Spinner"
+       android:textColor="@color/black"/>
+
+   <Button
+       android:id="@+id/btn_simple_adapter"
+       android:layout_marginTop="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="#aaaaaa"
+       android:text="Simple Adapter"
+       android:textColor="@color/black"/>
+
+   <Button
+       android:id="@+id/btn_base_adapter"
+       android:layout_marginTop="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="#aaaaaa"
+       android:text="Base Adapter"
+       android:textColor="@color/black"/>
+
+   <Button
+       android:id="@+id/btn_listview"
+       android:layout_marginTop="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="#aaaaaa"
+       android:text="list view"
+       android:textColor="@color/black"/>
+
+   <Button
+       android:id="@+id/btn_list_focus"
+       android:layout_marginTop="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="#aaaaaa"
+       android:text="list view focus"
+       android:textColor="@color/black"/>
+
+   <Button
+       android:id="@+id/btn_grid_view"
+       android:layout_marginTop="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="#aaaaaa"
+       android:text="grid view"
+       android:textColor="@color/black"/>
+
+   <Button
+       android:id="@+id/btn_view_pager"
+       android:layout_marginTop="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="#aaaaaa"
+       android:text="view pager"
+       android:textColor="@color/black"/>
+
+   <Button
+       android:id="@+id/btn_pager_tab"
+       android:layout_marginTop="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="#aaaaaa"
+       android:text="翻页标签栏"
+       android:textColor="@color/black"/>
+
+   <Button
+       android:id="@+id/btn_launcher"
+       android:layout_marginTop="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="#aaaaaa"
+       android:text="启动引导页面"
+       android:textColor="@color/black"/>
+
+   <Button
+       android:id="@+id/btn_fragment_static"
+       android:layout_marginTop="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="#aaaaaa"
+       android:text="Fragment Static"
+       android:textColor="@color/black"/>
+
+   <Button
+       android:id="@+id/btn_fragment_dynamic"
+       android:layout_marginTop="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="#aaaaaa"
+       android:text="Fragment Dynamic"
+       android:textColor="@color/black"/>
+
+   <Button
+       android:id="@+id/btn_launch_improvement"
+       android:layout_marginTop="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="#aaaaaa"
+       android:text="Launch Improvement"
+       android:textColor="@color/black"/>
+
+   <Button
+       android:id="@+id/btn_bill"
+       android:layout_marginTop="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="#aaaaaa"
+       android:text="Bill Case"
+       android:textColor="@color/black"/>
+
+</LinearLayout>
